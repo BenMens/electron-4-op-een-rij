@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.board {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+.board td {
+    margin: 0;
+    padding: 0;
+}
+
+.tile-img {
+    width: 75px;
+    height: 75px;
+    display: block;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#player-display {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.flash {
+    animation-name: flash-animation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes flash-animation {
+    0%   {color: black;}
+    50%  {color: orange;}
+    100% {color: black;}
+}
+
+.tile-background {
+    background-color: var(--color);
+}
+
+.red {
+    --color: red;
+}
+
+.yellow {
+    --color: yellow;
+}
+
+.transparant {
+    --color: rgba(0, 0, 0, 0);
+}
+
+.win-line {
+    animation-name: win-line-animation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes win-line-animation {
+    0%   {background-color: var(--color)}
+    50%  {background-color: rgba(0, 0, 0, 0)}
+    100% {background-color: var(--color)}
+}
+

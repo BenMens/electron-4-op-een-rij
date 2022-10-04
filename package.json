@@ -1,0 +1,15 @@
+{
+  "name": "electron-sandbox",
+  "version": "1.0.0",
+  "description": "electron sandbox",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ben Mens",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^21.0.1"
+  }
+}
