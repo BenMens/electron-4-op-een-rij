@@ -10,6 +10,7 @@
   "author": "Ben Mens",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^21.0.1"
+    "electron": "^21.0.1",
+    "eslint": "^8.24.0"
   }
 }
